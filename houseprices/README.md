@@ -5,11 +5,11 @@ Notebooks for Kaggle's introductory House Prices competion, which I'm working on
 ## Version 01: Simple Regression Model
 Using only features related to home and lot square footage, how accurate a model can we create? (Because we're just getting our feet wet, we're not submitting this model to the competition, so we estimated scores using a cross validation set.)
 Model: XGBRegressor
-Estimated Root Mean Squared Error: $35,443.19
-Estimated Kaggle Score: .19677
+Estimated Root Mean Squared Error: $42,194.37
+Estimated Kaggle Score: .20456
 
 ## Version 02: Quick and Dirty Random Forest (all non-null features)
 Out of curiosity, we wanted to see what would happen if we put together a quick and dirty model that uses all features with non-null values. As with the last notebook, we're not submitting this one to the competition, so once again we're estimating scores using a cross validation set.)
 Model: XGBRegressor
-Estimated RMSE: $24,244.39
-Estimated Kaggle Score: .127166
+Estimated RMSE: $33,208.80
+Estimated Kaggle Score: .15104
